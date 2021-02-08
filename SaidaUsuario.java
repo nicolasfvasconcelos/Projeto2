@@ -5,11 +5,11 @@ import java.util.List;
 public class SaidaUsuario {
 	//static Scanner = new Sc
 	public static void qualAnexo() {
-		String menuAnexo = "\n1- Anexo I - Comércio\r\n"
-				  + "2- Anexo II - Industria\r\n"
+		String menuAnexo = "1- Anexo I   - Comércio\r\n"
+				  + "2- Anexo II  - Industria\r\n"
 				  + "3- Anexo III - Serviço\r\n"
-				  + "4- Anexo IV – Construção Civil\r\n"
-				  + "5- Anexo  V – Serviços de cunho intelectual\r\n";
+				  + "4- Anexo IV  - Construção Civil\r\n"
+				  + "5- Anexo V   - Serviços de cunho intelectual\r\n";
 		System.out.println(menuAnexo);
 	}
 	
