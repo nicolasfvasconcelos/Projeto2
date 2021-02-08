@@ -56,7 +56,6 @@ public class Main {
 				switch (anexo) {
 					case 1: {
 						//chama a classe do case 1
-						System.out.println("Voce digitou 1");
 						Anexo1Comercio emp = new Anexo1Comercio();
 						emp.run();
 						System.out.println("\n\nDigite 1 se deseja ver informações de outros anexos.");
@@ -77,7 +76,7 @@ public class Main {
 					}
 					
 					case 4:{
-						Anexo2Industria emp = new Anexo2Industria();
+						Anexo4ServicoConstucaoCivil emp = new Anexo4ServicoConstucaoCivil();
 						emp.run();
 						System.out.println("\n\nDigite 1 se deseja ver informações de outros anexos.");
 						break;
@@ -99,7 +98,7 @@ public class Main {
 		    		 continua1= EntradaUsuario.getInt();
 		    		 } 
 		    		 catch (Exception e) {
-		    			 System.out.println("ERRO: Opção inválida");
+		    			 System.out.println("O programa será encerrado!");
 		    			 continua1=0;
 		    		 }
 				
@@ -123,7 +122,7 @@ public class Main {
 		    		 continua= EntradaUsuario.getInt();
 		    		 } 
 		    		 catch (Exception e) {
-		    			 System.out.println("ERRO: Opção inválida");
+		    			 System.out.println("O programa será encerrado!");
 		    			 continua=0;
 		    		 }
 		    	 } while (continua==1);
@@ -136,7 +135,9 @@ public class Main {
 		}
 		
 		
-		
+						System.out.println("Programa Encerrado!");
+						System.out.println("\nOLOCO MEUUUUU, QUEM SABE FAZ AO VIVO! \nPS: PALMEIRAS SEM MUNDIAL!");
+						
 		
 		}
 	
